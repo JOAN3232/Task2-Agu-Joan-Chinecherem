@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Crest Hotel | Luxury Stay</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <span class="logo-icon">&starf;</span>
+        <span class="logo-text">Royal Crest</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" />
+
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#dining">Dining</a></li>
+        <li><a href="#spa">Spa</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#booking" class="book-btn">Book Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">A New Standard of Luxury Hospitality</p>
+
+        <h1 class="hero-title">Royal<br>Crest</h1>
+
+        <p class="hero-description">
+          Timeless architecture, curated experiences, and exceptional hospitality
+          designed for unforgettable stays.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#booking" class="btn primary">Reserve Your Stay</a>
+          <a href="#rooms" class="btn outline">Explore Suites</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>250 Luxury Suites</span>
+          <span>Lagos, Nigeria</span>
+        </div>
+      </div>
+    </section>
+<section class="booking reveal" id="booking">
+      <div>
+        <span>Check In</span>
+        <strong>Aug 20, 2026</strong>
+      </div>
+
+      <div>
+        <span>Check Out</span>
+        <strong>Aug 25, 2026</strong>
+      </div>
+
+      <div>
+        <span>Guests</span>
+        <strong>2 Adults</strong>
+      </div>
+
+      <div>
+        <span>Rooms</span>
+        <strong>1 Suite</strong>
+      </div>
+
+      <a href="#" class="search-btn">Search Rooms</a>
+    </section>
+
+  <section class="section rooms reveal" id="rooms">
+      <div class="section-title">
+        <p class="eyebrow">Rooms & Suites</p>
+        <h2>Discover our luxury accommodations.</h2>
+      </div>
+
+      <div class="room-grid">
+        <article class="room-card">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80" alt="Deluxe hotel room">
+          </div>
+
+          <div class="room-content">
+            <p class="room-type">Signature Collection</p>
+            <h3>Deluxe Suite</h3>
+            <p>Elegant comfort with city views, warm interiors, and refined room details.</p>
+
+            <div class="room-footer">
+              <div>
+                <span class="room-price">$320</span>
+                <small>per night</small>
+              </div>
+              <a href="#booking">Reserve</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="room-card featured">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80" alt="Premium hotel suite">
+          </div>
+
+          <div class="room-content">
+            <p class="room-type">Most Requested</p>
+            <h3>Premium Suite</h3>
+            <p>Spacious luxury suite with a private lounge, soft lighting, and curated finishes.</p>
+
+            <div class="room-footer">
+              <div>
+                <span class="room-price">$480</span>
+                <small>per night</small>
+              </div>
+              <a href="#booking">Reserve</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="room-card">
+          <div class="room-image">
+            <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1000&q=80" alt="Royal penthouse suite">
+          </div>
+
+          <div class="room-content">
+            <p class="room-type">Royal Collection</p>
+            <h3>Royal Penthouse</h3>
+            <p>Our finest suite with skyline views, private dining, and an elevated stay experience.</p>
+
+            <div class="room-footer">
+              <div>
+                <span class="room-price">$850</span>
+                <small>per night</small>
+              </div>
+              <a href="#booking">Reserve</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+   <section class="section amenities reveal" id="spa">
+      <div class="section-title center">
+        <p class="eyebrow">Amenities</p>
+        <h2>Hotel amenities & services.</h2>
+      </div>
+
+      <div class="amenity-grid">
+        <article><h3>Spa & Wellness</h3><p>Relax with signature treatments and quiet luxury.</p></article>
+        <article><h3>Fine Dining</h3><p>Seasonal menus crafted by our expert chefs.</p></article>
+        <article><h3>Rooftop Pool</h3><p>Swim above the city with panoramic views.</p></article>
+        <article><h3>Fitness Center</h3><p>Modern equipment and private training sessions.</p></article>
+        <article><h3>Airport Transfer</h3><p>Seamless arrivals with private chauffeur service.</p></article>
+        <article><h3>Concierge</h3><p>Personal support for reservations and experiences.</p></article>
+      </div>
+    </section>
+
+    <!-- ABOUT  -->
+<section class="section about reveal" id="dining">
+  <div class="about-image">
+    <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c" alt="Luxury hotel exterior">
+    <span class="about-badge">Since 1998</span>
+  </div>
+
+  <div class="about-content">
+    <p class="eyebrow">Royal Experience</p>
+    <h2>Where timeless comfort meets refined hospitality.</h2>
+    <p>
+      Royal Crest is crafted for guests who appreciate quiet luxury, elegant interiors,
+      and thoughtful service. Every suite, dining experience, and detail is designed
+      to make your stay feel personal and unforgettable.
+    </p>
+
+    <div class="stats">
+      <div><strong>250+</strong><span>Luxury Rooms</span></div>
+      <div><strong>4.9</strong><span>Guest Rating</span></div>
+      <div><strong>24/7</strong><span>Concierge</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CNTGACT  -->
+<section class="section contact reveal" id="contact">
+  <div class="contact-content">
+    <div>
+      <p class="eyebrow">Reservations</p>
+      <h2>Begin your royal escape today.</h2>
+      <p>
+        Reserve your stay at Royal Crest and experience refined comfort,
+        elegant dining, and world-class hospitality.
+      </p>
+
+      <div class="contact-actions">
+        <a href="mailto:booking@royalcrest.com" class="btn primary">Book Your Stay</a>
+        <a href="#rooms" class="btn outline">View Suites</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <span>Private Reservations</span>
+      <h3>Luxury stays tailored to you.</h3>
+      <p>Our concierge team is available for suites, dining, spa bookings, and private experiences.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <a href="#" class="footer-logo">Royal Crest</a>
+      <p>
+        A luxury hotel experience designed for refined stays,
+        memorable moments, and timeless hospitality.
+      </p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <a href="#rooms">Rooms</a>
+      <a href="#dining">Dining</a>
+      <a href="#spa">Spa</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Lagos, Nigeria</p>
+      <p>booking@royalcrest.com</p>
+      <p>+234 800 000 0000</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Royal Crest Hotel. All rights reserved.</p>
+    <p>Luxury Hotel & Resort</p>
+  </div>
+</footer>
+
+  <script>
+  const header = document.querySelector(".header");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 50) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+
+  const revealElements = document.querySelectorAll(".reveal");
+
+  const revealOnScroll = () => {
+    revealElements.forEach((element) => {
+      const elementTop = element.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (elementTop < windowHeight - 80) {
+        element.classList.add("active");
+      }
+    });
+  };
+
+  window.addEventListener("scroll", revealOnScroll);
+  window.addEventListener("load", revealOnScroll);
+</script>
+</body>
+</html>
